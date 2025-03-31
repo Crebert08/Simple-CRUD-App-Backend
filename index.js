@@ -20,20 +20,6 @@ app.get('/', (req, res)=>{
     res.send("Kiri gute bro !");
 });
 
-// //Add A Product
-// app.post('/api/products', productRoute)
-
-// // Get All The Products
-// app.get('/api/products', );
-
-// // Find A Single Product
-// app.get('/api/products/:id', )
-
-// // Update a product
-// app.put('/api/products/:id', );
-
-// //Delete a product
-// app.delete('/api/products/:id', )
 
 mongoose.connect("mongodb+srv://Cresso:5ecrrVb1hPv02ZLc@cluster0.tpl2wrb.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0")
     .then(()=>{
